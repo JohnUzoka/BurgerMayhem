@@ -8,8 +8,11 @@ A tiny, single-file front-end game: move a player up/down, shoot with spacebar, 
 - Space: Shoot
 - R: Restart after game over
 
-## Run Locally
-Just open `index.html` in your browser.
+## Run The game
+Run the game by opening https://johnuzoka.github.io/BurgerMayhem/
+
+To locally run the game
+Just open `index.html` in your file browser.
 
 ## Files
 - `index.html`: Game container and script includes
