@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burger Mayhem</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Load jQuery without SRI to avoid blocked script issues locally -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <h1 id="title">Burger Mayhem</h1>
+  <div id="game">
+    <div id="player"></div>
+    <div id="hud">
+      <span id="score-label">Score: </span><span id="score">0</span>
+      <span id="status"></span>
+    </div>
+    <div id="controls-bar">Controls: W = Up, S = Down, Space = Shoot, R = Restart</div>
+  </div>
+  <div id="references">
+    <a href="references.html">Reference</a>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
