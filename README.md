@@ -1,4 +1,4 @@
-# Brainrot Space Invader (HTML/CSS/jQuery)
+# Burger Mayhem (HTML/CSS/jQuery)
 
 A tiny, single-file front-end game: move a player up/down, shoot with spacebar, enemies spawn from the right, collision ends the game.
 
@@ -10,8 +10,6 @@ A tiny, single-file front-end game: move a player up/down, shoot with spacebar, 
 
 ## Run Locally
 Just open `index.html` in your browser.
-
-On Windows via PowerShell, you can navigate to the project folder and open it:
 
 ## Files
 - `index.html`: Game container and script includes
