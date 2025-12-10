@@ -45,14 +45,14 @@ $(function () {
     const k = e.key.toLowerCase();
     if (k === 'w') state.keys.up = true;
     if (k === 's') state.keys.down = true;
-    if (e.key === ' ') state.keys.space = true;
+    if (e.key === 'Enter') state.keys.space = true;
   });
 
   $(document).on('keyup', (e) => {
     const k = e.key.toLowerCase();
     if (k === 'w') state.keys.up = false;
     if (k === 's') state.keys.down = false;
-    if (e.key === ' ') state.keys.space = false;
+    if (e.key === 'Enter') state.keys.space = false;
   });
 
   // Bullet creation
