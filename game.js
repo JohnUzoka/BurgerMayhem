@@ -21,6 +21,7 @@ $(function () {
     enemies: [],
     lastSpawn: performance.now(),
     assetsLoaded: false,
+    shotsPerSecond: 2,
   };
 
   // Preload images to ensure they exist
@@ -68,8 +69,8 @@ $(function () {
   let lastShot = 0;
   function maybeShoot(now) {
     if (!state.keys.space) return;
-    //5 shots a second
-    if (now - lastShot > 200) {
+    const minInterval = 1000 / state.shotsPerSecond;
+    if (now - lastShot > minInterval) {
       shoot();
       lastShot = now;
     }
