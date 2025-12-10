@@ -3,9 +3,9 @@
 A tiny, single-file front-end game: move a player up/down, shoot with spacebar, enemies spawn from the right, collision ends the game.
 
 ## Controls
-- Arrow Up: Move up
-- Arrow Down: Move down
-- Space: Shoot
+- W key: Move up
+- S key: Move down
+- Enter: Shoot
 - R: Restart after game over
 
 ## Run The game
