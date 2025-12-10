@@ -21,7 +21,7 @@ $(function () {
     enemies: [],
     lastSpawn: performance.now(),
     assetsLoaded: false,
-    shotsPerSecond: 2,
+    shotsPerSecond: 1.5,
   };
 
   // Preload images to ensure they exist
